@@ -22,7 +22,7 @@ app.get('*', (req, res) => {
 
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'http://localhost:3001', ''],
+    origin: ['http://localhost:3000', 'http://localhost:3001', 'https://ethiodigitals-solution-project-y6sg.vercel.app/'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true, // Allow cookies if needed
