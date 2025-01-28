@@ -55,13 +55,15 @@ app.post('/api/contact', async (req, res) => {
   const { firstName, lastName, email, phone, subject, message } = req.body;
 
   const htmlTemplate = `
-  <div style="width:800px; margin:0 auto; background-color:rgb(8, 24, 94); font-family:Arial, sans-serif; color:#fff;">
+  <div style="width:800px; margin:0 auto; background-color:rgb(32, 72, 249); font-family:Arial, sans-serif; color:#fff;">
     <table cellpadding="10" cellspacing="0" border="0" width="100%" style="border:1px solid #ddd; background:#fff;">
       <!-- Header Section -->
       <tr>
         <td style="background:rgb(8, 24, 94); padding:15px; text-align:center; color:#fff;">
           <h1 style="margin:0; font-size:24px;">Ethio digitals solution</h1>
-          <p style="margin:5px 0; font-size:14px;">Your Health, Our Priority</p>
+         <h2 className="text-3xl font-bold text-gray-900 mb-6 sm:text-4xl">Ethio Digitals Solution</h2>
+         <p className="text-lg text-gray-700 mb-8">Empowering Brands with Digital Marketing Excellence</p>
+         <p className="text-base text-gray-600">Your Partner in Achieving Online Success</p>
         </td>
       </tr>
 
